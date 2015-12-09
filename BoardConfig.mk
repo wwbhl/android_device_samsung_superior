@@ -116,7 +116,7 @@ PRODUCT_DEX_PREOPT_DEFAULT_FLAGS := --compiler-filter=everything
 BOARD_SEPOLICY_DIRS += \
     device/samsung/superior/selinux
 
-BOARD_SEPOLICY_UNION += \
+#BOARD_SEPOLICY_UNION += \
     file_contexts \
     file.te \
     app.te \
