@@ -1,1 +1,1 @@
-allow untrusted_app self:shm *;
+#allow untrusted_app self:shm *;
