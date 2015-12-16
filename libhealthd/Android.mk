@@ -20,5 +20,6 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := healthd_board_piranha.cpp
 LOCAL_MODULE := libhealthd.piranha
 LOCAL_C_INCLUDES := system/core/healthd
+LOCAL_CFLAGS := -Werror
 include $(BUILD_STATIC_LIBRARY)
 
