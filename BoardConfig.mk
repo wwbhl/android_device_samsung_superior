@@ -34,6 +34,7 @@ BOARD_KERNEL_CMDLINE := console=ttyO2,115200n8 mem=1024M androidboot.console=tty
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/piranha
 TARGET_KERNEL_CONFIG := cyanogenmod_superior_defconfig
+BOARD_RIL_CLASS := ../../../device/samsung/superior/ril
 
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/superior/include
 

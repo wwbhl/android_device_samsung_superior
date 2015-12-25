@@ -96,6 +96,10 @@ PRODUCT_PACKAGES += \
         Tag
 
 # RIL
+PRODUCT_PACKAGES += \
+    libsamsung_symbols \
+    ril-wrapper
+
 PRODUCT_PROPERTY_OVERRIDES += \
     mobiledata.interfaces=pdp0,wlan0,gprs,ppp0 \
     ro.ril.hsxpa=1 \
