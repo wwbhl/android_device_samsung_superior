@@ -29,7 +29,7 @@ import android.telephony.Rlog;
 
 import android.telephony.PhoneNumberUtils;
 
-public class SamsungExynos4RIL extends RIL implements CommandsInterface {
+public class SamsungOmap4RIL extends RIL implements CommandsInterface {
 
     //SAMSUNG STATES
     static final int RIL_REQUEST_GET_CELL_BROADCAST_CONFIG = 10002;
@@ -118,7 +118,7 @@ public class SamsungExynos4RIL extends RIL implements CommandsInterface {
     private Object mCatProCmdBuffer;
     /* private Message mPendingGetSimStatus; */
 
-    public SamsungExynos4RIL(Context context, int networkMode, int cdmaSubscription, Integer instanceId) {
+    public SamsungOmap4RIL(Context context, int networkMode, int cdmaSubscription, Integer instanceId) {
         super(context, networkMode, cdmaSubscription, instanceId);
     }
 
